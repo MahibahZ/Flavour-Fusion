@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/neon_border"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="#FF9800"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:background="@drawable/rounded_white_bg"
+        android:padding="12dp"
+        android:textColor="#000"
+        android:textColorHint="#888"
+        android:elevation="4dp"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:background="@drawable/rounded_white_bg"
+        android:padding="12dp"
+        android:textColor="#000"
+        android:textColorHint="#888"
+        android:elevation="4dp"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="@drawable/rounded_white_bg"
+        android:padding="12dp"
+        android:inputType="textPassword"
+        android:textColor="#000"
+        android:textColorHint="#888"
+        android:elevation="4dp"
+        android:layout_marginBottom="18dp" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:background="@drawable/orange_button"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+</LinearLayout> 

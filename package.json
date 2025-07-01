@@ -1,0 +1,15 @@
+{
+  "name": "fooddeli-dev-tools",
+  "version": "1.0.0",
+  "description": "Development tools for FoodDeli Android app",
+  "scripts": {
+    "start": "node scripts/watch-android.js",
+    "dev": "nodemon --watch app/src --ext java,xml --exec \"npm run build-and-install\"",
+    "build-and-install": "node scripts/build-and-install.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "nodemon": "^2.0.22",
+    "shelljs": "^0.8.5"
+  }
+} 
